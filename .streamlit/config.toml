@@ -1,0 +1,4 @@
+[server]
+# Avoid Streamlit probing optional torchvision modules in Transformers.
+# Restart manually after changing source files.
+fileWatcherType = "none"
